@@ -1,0 +1,29 @@
+body{
+    background:black;
+}
+.postcard{
+    background: white;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    border: 200px solid rgb(31, 31, 31);
+    position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%);
+    padding: 15px;
+}
+.postcard h1{
+    Margin:0;
+}
+
+.left-center{
+    text-align: left; width: 50%; 
+}
+.header-postcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
